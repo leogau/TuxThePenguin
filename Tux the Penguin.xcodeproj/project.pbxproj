@@ -13,8 +13,6 @@
 		9815F51D1C48B1F6009D9935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9815F51B1C48B1F6009D9935 /* Main.storyboard */; };
 		9815F51F1C48B1F6009D9935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9815F51E1C48B1F6009D9935 /* Assets.xcassets */; };
 		9815F5221C48B1F6009D9935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9815F5201C48B1F6009D9935 /* LaunchScreen.storyboard */; };
-		9815F52C1C4B2C42009D9935 /* bee.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9815F52B1C4B2C42009D9935 /* bee.atlas */; };
-		9815F52E1C4B34F9009D9935 /* GameSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9815F52D1C4B34F9009D9935 /* GameSprite.swift */; };
 		9815F5301C4B358D009D9935 /* Bee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9815F52F1C4B358D009D9935 /* Bee.swift */; };
 		9815F5321C4B37B2009D9935 /* ground.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9815F5311C4B37B2009D9935 /* ground.atlas */; };
 		9815F5341C4B380C009D9935 /* Ground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9815F5331C4B380C009D9935 /* Ground.swift */; };
@@ -43,6 +41,8 @@
 		98A7FE721C5595670075B7EA /* Hurt.aif in Resources */ = {isa = PBXBuildFile; fileRef = 98A7FE6D1C5595670075B7EA /* Hurt.aif */; };
 		98A7FE731C5595670075B7EA /* Powerup.aif in Resources */ = {isa = PBXBuildFile; fileRef = 98A7FE6E1C5595670075B7EA /* Powerup.aif */; };
 		98A7FE741C5595670075B7EA /* StartGame.aif in Resources */ = {isa = PBXBuildFile; fileRef = 98A7FE6F1C5595670075B7EA /* StartGame.aif */; };
+		98A7FE781C55F0880075B7EA /* bee.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 98A7FE771C55F0880075B7EA /* bee.atlas */; };
+		98A7FE7A1C55F0910075B7EA /* GameSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A7FE791C55F0910075B7EA /* GameSprite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,8 +54,6 @@
 		9815F51E1C48B1F6009D9935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9815F5211C48B1F6009D9935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9815F5231C48B1F6009D9935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9815F52B1C4B2C42009D9935 /* bee.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = bee.atlas; path = ../bee.atlas; sourceTree = "<group>"; };
-		9815F52D1C4B34F9009D9935 /* GameSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameSprite.swift; path = ../GameSprite.swift; sourceTree = "<group>"; };
 		9815F52F1C4B358D009D9935 /* Bee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bee.swift; sourceTree = "<group>"; };
 		9815F5311C4B37B2009D9935 /* ground.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ground.atlas; sourceTree = "<group>"; };
 		9815F5331C4B380C009D9935 /* Ground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ground.swift; sourceTree = "<group>"; };
@@ -84,6 +82,8 @@
 		98A7FE6D1C5595670075B7EA /* Hurt.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hurt.aif; sourceTree = "<group>"; };
 		98A7FE6E1C5595670075B7EA /* Powerup.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Powerup.aif; sourceTree = "<group>"; };
 		98A7FE6F1C5595670075B7EA /* StartGame.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = StartGame.aif; sourceTree = "<group>"; };
+		98A7FE771C55F0880075B7EA /* bee.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bee.atlas; sourceTree = "<group>"; };
+		98A7FE791C55F0910075B7EA /* GameSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSprite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +116,8 @@
 		9815F5121C48B1F5009D9935 /* Tux the Penguin */ = {
 			isa = PBXGroup;
 			children = (
+				98A7FE771C55F0880075B7EA /* bee.atlas */,
 				98A7FE6A1C5595670075B7EA /* Sound */,
-				9815F52B1C4B2C42009D9935 /* bee.atlas */,
 				9815F53F1C4CAE68009D9935 /* enemies.atlas */,
 				9815F53B1C4CA1D6009D9935 /* goods.atlas */,
 				9815F5311C4B37B2009D9935 /* ground.atlas */,
@@ -129,10 +129,10 @@
 				9815F52F1C4B358D009D9935 /* Bee.swift */,
 				9815F5471C4E0BEF009D9935 /* Blade.swift */,
 				9815F5491C4E0D06009D9935 /* Coin.swift */,
+				98A7FE791C55F0910075B7EA /* GameSprite.swift */,
 				98A7FE581C4F63540075B7EA /* EncounterManager.swift */,
 				98A7FE681C5589E40075B7EA /* MenuScene.swift */,
 				9815F5171C48B1F6009D9935 /* GameScene.swift */,
-				9815F52D1C4B34F9009D9935 /* GameSprite.swift */,
 				9815F5191C48B1F6009D9935 /* GameViewController.swift */,
 				9815F5451C4E0AA4009D9935 /* Ghost.swift */,
 				9815F5331C4B380C009D9935 /* Ground.swift */,
@@ -232,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9815F52C1C4B2C42009D9935 /* bee.atlas in Resources */,
 				98A7FE5F1C547BA80075B7EA /* hud.atlas in Resources */,
 				9815F5221C48B1F6009D9935 /* LaunchScreen.storyboard in Resources */,
 				98A7FE741C5595670075B7EA /* StartGame.aif in Resources */,
@@ -244,6 +243,7 @@
 				9815F5381C4B3FE1009D9935 /* pierre.atlas in Resources */,
 				9815F5321C4B37B2009D9935 /* ground.atlas in Resources */,
 				9815F5401C4CAE68009D9935 /* enemies.atlas in Resources */,
+				98A7FE781C55F0880075B7EA /* bee.atlas in Resources */,
 				98A7FE661C5559F10075B7EA /* PierrePath.sks in Resources */,
 				98A7FE5B1C4F681B0075B7EA /* EncounterBees.sks in Resources */,
 				98A7FE731C5595670075B7EA /* Powerup.aif in Resources */,
@@ -266,7 +266,6 @@
 				98A7FE591C4F63540075B7EA /* EncounterManager.swift in Sources */,
 				9815F5301C4B358D009D9935 /* Bee.swift in Sources */,
 				9815F5481C4E0BEF009D9935 /* Blade.swift in Sources */,
-				9815F52E1C4B34F9009D9935 /* GameSprite.swift in Sources */,
 				9815F5181C48B1F6009D9935 /* GameScene.swift in Sources */,
 				98A7FE611C547BC40075B7EA /* HUD.swift in Sources */,
 				9815F5461C4E0AA4009D9935 /* Ghost.swift in Sources */,
@@ -275,6 +274,7 @@
 				9815F54A1C4E0D06009D9935 /* Coin.swift in Sources */,
 				98A7FE631C5556120075B7EA /* Background.swift in Sources */,
 				9815F51A1C48B1F6009D9935 /* GameViewController.swift in Sources */,
+				98A7FE7A1C55F0910075B7EA /* GameSprite.swift in Sources */,
 				9815F5141C48B1F6009D9935 /* AppDelegate.swift in Sources */,
 				9815F5421C4CAE72009D9935 /* MadFly.swift in Sources */,
 				9815F53E1C4CA342009D9935 /* Star.swift in Sources */,
